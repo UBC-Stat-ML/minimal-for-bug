@@ -3,6 +3,7 @@ workflow {
 }
 
 process myProcess {
+    debug true
     """
     echo OK
     """
