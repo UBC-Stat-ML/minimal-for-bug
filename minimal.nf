@@ -1,8 +1,8 @@
 workflow {
-    run()
+    myProcess()
 }
 
-process run {
+process myProcess {
     """
     echo OK
     """
